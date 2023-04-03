@@ -1,0 +1,12 @@
+<%= form_with model: @post, url: posts_path, local: true do |form| %>
+  <%= form.text_area :content, name: "post[content]", placeholder: "Wetin dey your mind?..." %><br>
+  <%= form.submit "Create post" %>
+<% end %>
+
+<div>
+
+  <% @posts.each do |post| %>
+  <%= post.user.nickname %>
+  <p> <%= post.content %> </p>
+  <% end %>
+</div>
