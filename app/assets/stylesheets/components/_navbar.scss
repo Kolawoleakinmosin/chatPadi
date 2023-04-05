@@ -10,3 +10,37 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.nav-board-left {
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 350px;
+  height: 100%;
+  overflow: auto;
+}
+
+.nav-board-right {
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  width: 350px;
+  height: 100%;
+  overflow: auto;
+}
+
+.nav-element {
+  margin-top: 55px;
+  margin-left: 40px;
+}
+
+.nav-element li {
+  list-style: none;
+  font-size: larger;
+  margin-bottom: 40px;
+
+}
+
+
